@@ -9,7 +9,7 @@ cc_library(
     name = "fake_clock_lib",
     srcs = ["fake_clock.cc"],
     hdrs = ["fake_clock.hh"],
-    testonly = 1)
+    visibility = ["//visibility:public"])
 
 cc_test(
     name = "fake_clock_test",
