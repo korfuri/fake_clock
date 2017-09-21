@@ -22,3 +22,7 @@ Example usage:
           std::chrono::microseconds>(t2 - t1).count();
    assert(100000 == elapsed_us);
 ````
+
+For a more advanced and practical example, see
+[my prometheus client implementation](https://github.com/korfuri/client_cpp/blob/c922b557ec01e9399499a05b04835cb43c2bc4c6/prometheus/client_test.cc)
+for which I originally wrote this.
